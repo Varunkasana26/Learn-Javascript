@@ -37,3 +37,26 @@ console.log(typeof outsideTemp)//object
 console.log(typeof myFunction)//give result fuction but it's said to be object function
 
 
+//*********************************************** 
+
+// stack(Primitive), Heap (Non-Primitive)
+
+let mycollagename = "Thapar"
+let anothername = mycollagename
+anothername = "timepass"
+
+console.log(anothername);
+console.log(mycollagename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+userTwo.email = "varun@mail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
