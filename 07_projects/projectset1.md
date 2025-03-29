@@ -3,7 +3,7 @@
 ## project link
 [click here](https://stackblitz.com/edit/dim-project-chaiaurcode?file=index.html)
 
-#solution code
+## solution code
 
 ## project 1
 
