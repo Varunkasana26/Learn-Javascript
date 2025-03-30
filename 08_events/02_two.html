@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Varun</h1>
+    <button id="stop">Start</button>
+</body>
+<script>
+    const sayVarun = function(){
+        console.log("varun");
+    }
+    //document.querySelector('h1').innerHTML="Javascript"
+    const changetext = function(){
+        document.querySelector('h1').innerHTML = "javascript"
+    }
+    //setTimeout(sayVarun,2000)
+    const changeme = setTimeout(changetext,2000)
+    //clearTimeout(changeme)
+    //applying on button
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeme)
+        console.log("stopped")
+    })
+</script>
+</html>
